@@ -3,6 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar configurações do VS Code e IntelliJ
+.vscode/
+.idea/
+
+*Zone.Identifier
+
 # C extensions
 *.so
 
